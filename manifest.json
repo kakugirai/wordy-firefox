@@ -1,0 +1,24 @@
+{
+    "name": "Wordy",
+    "version": "0.1.0",
+    "description": "Wordy, random Japanese grammar in your new tab.",
+    "icons": {
+        "128": "icon128.png"
+    },
+    "manifest_version": 2,
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "applications": {
+        "gecko": {
+            "id": "me@girai.dev"
+        }
+    },
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+    },
+    "permissions": [
+        "storage"
+    ]
+}

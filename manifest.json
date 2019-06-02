@@ -1,9 +1,10 @@
 {
     "name": "Wordy",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Wordy, random Japanese grammar in your new tab.",
     "icons": {
-        "128": "icon128.png"
+        "48": "icon.png",
+        "96": "icon@2x.png"
     },
     "manifest_version": 2,
     "chrome_url_overrides": {

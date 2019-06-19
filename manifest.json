@@ -1,6 +1,6 @@
 {
     "name": "Wordy",
-    "version": "0.1.1",
+    "version": "0.2.1",
     "description": "Wordy, random Japanese grammar in your new tab.",
     "icons": {
         "48": "icon.png",
@@ -12,7 +12,8 @@
     },
     "applications": {
         "gecko": {
-            "id": "me@girai.dev"
+            "id": "me@girai.dev",
+            "strict_min_version": "54.0"
         }
     },
     "options_ui": {
